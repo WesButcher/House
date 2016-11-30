@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Revit House" company="" webLink="http://" view-date="2016-11-01" view-index="0" gantt-divider-location="352" resource-divider-location="300" version="2.8.1" locale="en_CA">
+    <description><![CDATA[Revit to Unity home walkthrough ]]></description>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Name" width="199" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="74" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Finalize House Design" color="#8cb6ce" meeting="false" start="2016-11-01" duration="14" complete="0" priority="4" expand="true">
+            <notes><![CDATA[Complete interior and exterior design of the building
+
+Includes all furniture, appliances, and any other object that is common in a house]]></notes>
+        </task>
+        <task id="3" name="Research Revit to Unity Conversions" color="#8cb6ce" meeting="false" start="2016-11-21" duration="5" complete="0" expand="true">
+            <notes><![CDATA[Find efficient ways to convert Revit to Unity that don't require re-textures or re-moddeling in Unity]]></notes>
+        </task>
+        <task id="6" name="Finalize House in Unity" color="#8cb6ce" meeting="false" start="2016-11-28" duration="15" complete="0" expand="true">
+            <notes><![CDATA[Import the house into Unity and finalize any details that may need to be changed to suit Unity or fix any errors on conversion
+
+Pick and choose an environment ]]></notes>
+        </task>
+        <task id="7" name="Program Player Movement" color="#8cb6ce" meeting="false" start="2016-12-19" duration="2" complete="0" expand="true">
+            <notes><![CDATA[Implement first person controls]]></notes>
+        </task>
+        <task id="17" name="Research Openable Doors" color="#8cb6ce" meeting="false" start="2016-12-21" duration="18" complete="0" expand="true">
+            <notes><![CDATA[Research how to make doors open and close when triggered and implent them into the game]]></notes>
+        </task>
+        <task id="9" name="Program Interactive Menus" color="#8cb6ce" meeting="false" start="2017-01-16" duration="8" complete="0" expand="true">
+            <notes><![CDATA[Gather detials for the house regarding square feet, functionality, building materials, decor etc. Then create inteactive menus for them]]></notes>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
